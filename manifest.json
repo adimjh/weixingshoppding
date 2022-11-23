@@ -53,7 +53,7 @@
         "appid" : "wx2d675d5d45fe47c6",
         "setting" : {
             "urlCheck" : true,
-			"checkSiteMap": false
+            "checkSiteMap": false
         },
         "usingComponents" : true
     },
