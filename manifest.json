@@ -1,6 +1,6 @@
 {
-    "name" : "nui_proj",
-    "appid" : "",
+    "name" : "测试商城",
+    "appid" : "__UNI__70EC6F9",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -53,9 +53,10 @@
         "appid" : "wx2d675d5d45fe47c6",
         "setting" : {
             "urlCheck" : true,
-            "checkSiteMap": false
+            "checkSiteMap" : false
         },
-        "usingComponents" : true
+        "usingComponents" : true,
+        "permission" : {}
     },
     "mp-alipay" : {
         "usingComponents" : true

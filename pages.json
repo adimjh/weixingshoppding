@@ -1,52 +1,69 @@
 {
   "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-     {
+    {
       "path": "pages/home/home",
       "style": {
-        "navigationBarTitleText": "",
-        "enablePullDownRefresh": false
+        "eullDownRefresh": false
       }
     }, {
       "path": "pages/cate/cate",
       "style": {
-        "navigationBarTitleText": "",
         "enablePullDownRefresh": false
       }
     }, {
       "path": "pages/cart/cart",
       "style": {
-        "navigationBarTitleText": "",
         "enablePullDownRefresh": false
       }
     }, {
       "path": "pages/my/my",
       "style": {
-        "navigationBarTitleText": "",
         "enablePullDownRefresh": false
       }
     }
   ],
+  "subPackages": [{
+    "root": "subpkg",
+    "pages": [{
+      "path": "goods_detail/goods_detail",
+      "style": {
+        
+      }
+    }, {
+      "path": "goods_list/goods_list",
+      "style": {
+        "onReachBottomDistance": 150,
+        "enablePullDownRefresh": true,
+        "backgroundColor": "#f8f8f8"
+      }
+
+    }, {
+      "path": "search/search",
+      "style": {
+      }
+
+    }]
+  }],
   "globalStyle": {
-    "navigationBarTextStyle": "black",
+    "navigationBarTextStyle": "white",
     "navigationBarTitleText": "江涵商城",
     "navigationBarBackgroundColor": "#464646",
     "backgroundColor": "#464646"
   },
   "tabBar": {
     "selectedColor": "#c00000",
-    "list": [
-      {
+    "list": [{
         "pagePath": "pages/home/home",
         "text": "首页",
         "iconPath": "static/tab_icons/home.png",
         "selectedIconPath": "static/tab_icons/home-active.png"
-      }, 
+      },
       {
         "pagePath": "pages/cate/cate",
         "text": "分类",
         "iconPath": "static/tab_icons/cate.png",
         "selectedIconPath": "static/tab_icons/cate-active.png"
-      }, 
+      },
       {
         "pagePath": "pages/cart/cart",
         "text": "购物车",
@@ -58,7 +75,7 @@
         "text": "我的",
         "iconPath": "static/tab_icons/my.png",
         "selectedIconPath": "static/tab_icons/my-active.png"
-        }
+      }
     ]
   }
 }
